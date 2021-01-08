@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "mei-friend:toggle"
   },
-  "repository": "https://github.com/wergo/mei-friend",
+  "repository": "https://github.com/atom/mei-friend",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
