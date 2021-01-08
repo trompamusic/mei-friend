@@ -1,7 +1,7 @@
 {
   "name": "mei-friend",
   "main": "./lib/mei-friend",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight editor for MEI score encodings.",
   "keywords": [],
   "activationCommands": {
