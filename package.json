@@ -13,6 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "verovio": "2.2.0"
+    "verovio": "^3.0.2"
   }
 }
