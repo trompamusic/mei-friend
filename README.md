@@ -8,4 +8,4 @@ It makes intensive use of the fantastic engraving engine
 
 ---
 
-To install, go to [https://atom.io/packages/mei-friend](https://atom.io/packages/mei-friend/).
+To install, go to [the atom package webpage](https://atom.io/packages/mei-friend/).
