@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/wergo/mei-friend",
   "license": "MIT",
-  "engines": {
+  "engines": { 
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
