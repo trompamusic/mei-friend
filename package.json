@@ -1,7 +1,7 @@
 {
   "name": "mei-friend",
   "main": "./lib/mei-friend",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight editor for MEI score encodings.",
   "keywords": [],
   "activationCommands": {
@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/wergo/mei-friend",
   "license": "MIT",
-  "engines": { 
+  "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
