@@ -34,7 +34,7 @@ Once installed, use the package by following these steps:
 1. Launch Atom and open an MEI file (menu item File > Open...).
     - [this is a nice example encoding](https://github.com/trompamusic-encodings/Beethoven_WoO71_BreitkopfHaertel/blob/master/Beethoven_WoO71-Breitkopf.mei) – save with the `.mei` extension (delete anything after `.mei`)
     - [more examples of MEI 4.0 encodings can be found here](https://github.com/trompamusic-encodings)
-1. To display the notation, use the menu item Packages > MEI Tools > Show/Hide Notation, or simply press `Ctrl Option F` on a Mac, or `Ctrl Alt F` for Windows.
+1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or simply press `Ctrl Option F` on a Mac, or `Ctrl Alt F` for Windows.
 
 ## Validating your MEI encoding
 Only valid MEI can be rendered into notation with _[Verovio](http://www.verovio.org/)_.
