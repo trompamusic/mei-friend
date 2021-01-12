@@ -7,3 +7,4 @@
 * Arrow key bindings for navigating within notation display (verovio panel)
 * Note-, measure, and page-wise backwards and forwards scrolling
 * Up- and down-scrolling through layers
+* Selector for breaks options added (auto, line, encoded, none)
