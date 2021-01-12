@@ -8,3 +8,4 @@
 * Note-, measure, and page-wise backwards and forwards scrolling
 * Up- and down-scrolling through layers
 * Selector for breaks options added (auto, line, encoded, none)
+* addSlur/addTie to insert MEI code rather than to act on vrvToolkit
