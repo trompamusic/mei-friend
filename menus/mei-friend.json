@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle mei-friend",
+        "label": "Toggle MEI friend",
         "command": "mei-friend:toggle"
       }
     ]
@@ -12,11 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "mei-friend",
+          "label": "MEI friend",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Show/Hide Notation",
               "command": "mei-friend:toggle"
+            },
+            {
+              "label": "Convert MusicXML to MEI",
+              "command": "mei-friend:convertToMEI"
             }
           ]
         }

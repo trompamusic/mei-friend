@@ -1,5 +1,21 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "mei-friend:toggle"
+    "ctrl-alt-f": "mei-friend:toggle"
+  },
+  ".mei-friend": {
+    "s": "mei-friend:addSlur",
+    "t": "mei-friend:addTie",
+    "<": "mei-friend:addCresHairpin",
+    ">": "mei-friend:addDimHairpin",
+    "x": "mei-friend:invertPlacement",
+    "right": "mei-friend:nextNote",
+    "left": "mei-friend:previousNote",
+    "cmd-right": "mei-friend:nextMeasure",
+    "cmd-left": "mei-friend:previousMeasure",
+    "ctrl-cmd-right": "mei-friend:nextPage",
+    "ctrl-cmd-left": "mei-friend:previousPage",
+    "up": "mei-friend:layerUp",
+    "down": "mei-friend:layerDown",
+    "backspace": "mei-friend:delete"
   }
 }

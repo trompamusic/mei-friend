@@ -2,17 +2,40 @@
   "name": "mei-friend",
   "main": "./lib/mei-friend",
   "version": "0.1.3",
-  "description": "A lightweight editor for MEI score encodings.",
-  "keywords": [],
+  "description": "A viewer and lightweight editor for MEI score encodings.",
+  "keywords": [
+    "music-encoding",
+    "verovio",
+    "digital music scores",
+    "music"
+  ],
   "activationCommands": {
     "atom-workspace": "mei-friend:toggle"
   },
+  "activationHooks": [
+    "language-mei:grammar-used",
+    "language-xml:grammar-used"
+  ],
   "repository": "https://github.com/wergo/mei-friend",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "atom-select-list": "^0.8.0",
+    "jquery": "^3.5.1",
     "verovio": "^3.0.2"
+  },
+  "homepage": "https://github.com/wergo/mei-friend#readme",
+  "package-deps": [
+    "language-mei"
+  ],
+  "author": {
+    "name": "Werner Goebl",
+    "email": "goebl@mdw.ac.at"
+  },
+  "bugs": {
+    "url": "https://github.com/wergo/mei-friend/issues"
   }
 }
