@@ -11,6 +11,7 @@ __This package is currently under development__.
 
 
 ## Current Features
+### Display
 - As-you-type rendering of MEI into music notation with _[Verovio](http://www.verovio.org/)_.
 - Scale notation (zoom in or out) for ease of viewing.
 - Update notation to current cursor position in MEI encoding.
@@ -20,8 +21,12 @@ __This package is currently under development__.
     - if the current element has no `xml:id`, the parent `<staff>` and then `<measure>` will be checked for an `xml:id` and will be highlighted if one is found.
 - Click on a note or other rendered notation element to take the cursor to the associated place in the MEI code
     - also relies on `xml:id`s, so elements without `xml:id`s do not provide this feature.
-- Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
 - Refactor the MEI encoding by running it through Verovio, adding `xml:id`s to elements without `id`s.
+
+### Editing functionality
+- Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
+- Select one or more elements in the Verovio panel (SHIFT + click for multiple tones).
+- Insert slur, tie, hairpin elements at selected notes.
 - ...more to come...
 
 
@@ -34,7 +39,7 @@ Once installed, use the package by following these steps:
 1. Launch Atom and open an MEI file (menu item File > Open...).
     - [this is a nice example encoding](https://github.com/trompamusic-encodings/Beethoven_WoO71_BreitkopfHaertel/blob/master/Beethoven_WoO71-Breitkopf.mei) – save with the `.mei` extension (delete anything after `.mei`)
     - [more examples of MEI 4.0 encodings can be found here](https://github.com/trompamusic-encodings)
-1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or simply press `Ctrl Option F` on a Mac, or `Ctrl Alt F` for Windows.
+1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or simply press `Alt Cmd M` on a Mac, or `Alt Win M` for Windows.
 
 ## Validating your MEI encoding
 Only valid MEI can be rendered into notation with _[Verovio](http://www.verovio.org/)_.

@@ -1,12 +1,25 @@
 {
   "atom-workspace": {
-    "ctrl-alt-f": "mei-friend:toggle"
+    "alt-cmd-m": "mei-friend:toggle"
   },
   ".mei-friend": {
     "s": "mei-friend:addSlur",
     "t": "mei-friend:addTie",
-    "<": "mei-friend:addCresHairpin",
-    ">": "mei-friend:addDimHairpin",
+    "ctrl-s": "mei-friend:addSlurBelow",
+    "ctrl-t": "mei-friend:addTieBelow",
+    "h": "mei-friend:addCresHairpin",
+    "cmd-h": "mei-friend:addDimHairpin",
+    "ctrl-h": "mei-friend:addCresHairpinBelow",
+    "ctrl-cmd-h": "mei-friend:addDimHairpinBelow",
+    "f": "mei-friend:addFermata",
+    "ctrl-f": "mei-friend:addFermataBelow",
+    "i": "mei-friend:addDirective",
+    "ctrl-i": "mei-friend:addDirectiveBelow",
+    "d": "mei-friend:addDynamics",
+    "ctrl-d": "mei-friend:addDnamicsBelow",
+    "shift-t": "mei-friend:addTempo",
+
+
     "x": "mei-friend:invertPlacement",
     "right": "mei-friend:nextNote",
     "left": "mei-friend:previousNote",
