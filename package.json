@@ -16,6 +16,9 @@
     "language-mei:grammar-used",
     "language-xml:grammar-used"
   ],
+  "deserializers": {
+   "mei-friend/MeiFriendView": "deserializemeiFriendView"
+  },
   "repository": "https://github.com/wergo/mei-friend",
   "license": "MIT",
   "engines": {

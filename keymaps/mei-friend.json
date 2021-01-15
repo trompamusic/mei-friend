@@ -20,6 +20,7 @@
     "shift-t": "mei-friend:addTempo",
 
 
+    "q": "mei-friend:nightMode",
     "x": "mei-friend:invertPlacement",
     "right": "mei-friend:nextNote",
     "left": "mei-friend:previousNote",

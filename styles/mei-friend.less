@@ -2,103 +2,169 @@
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
-@import "ui-variables";
-
-@highlight-color: #0098F0;
+@import "ui-variables"; // notation coloring notationNightMode: false:
+@notation-color: black;
+@notation-background-color: white;
+@highlight-color: @text-color-info; // notationNightMode = true:
+@inverted-color: @text-color;
+@inverted-background-color: @base-background-color;
+//
 @controls-height: 5rem;
 
 .mei-friend {
-    background-color: #FFF;
-    padding-top: @controls-height;
+  // background-color: #FFF;
+  padding-top: @controls-height;
 
-    #verovio-controls-form {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
-        height: @controls-height;
-        padding: .5rem 1rem;
-        text-align: left;
-        background-color: rgba(33, 37, 43, 0.9);
-        white-space: nowrap;
-        overflow: scroll;
-        z-index: 10;
+  #verovio-controls-form {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: @controls-height;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    background-color: @base-background-color; //rgba(33, 37, 43, 0.9);
+    white-space: nowrap;
+    overflow: scroll;
+    z-index: 10;
 
-        input[type="range"], input[type="color"], input[type="checkbox"] {
-            max-width: 100%;
-            max-height: 2em;
-            display: inline-block;
-            margin: 0 0.5rem;
-            vertical-align: middle;
-        }
-
-        input[type="range"] {
-            width: auto;
-        }
-
-        label {
-          margin-left: .5rem;
-          margin-right: .5rem;
-        }
-
-        button {
-          align-content: space-around;
-          align-items: center;
-          vertical-align: middle;
-          margin: 0px;
-          padding: 0px;
-          padding-left: 3px;
-          border-radius: 5px;
-        }
-
-        #zoom-ctrls, #color-ctrls, #pagination-ctrls, #pagination-toggle, #breaks-ctrls, #update-ctrls, #debug-ctrls {
-            display: inline-block;
-            margin-left: .5rem;
-            margin-right: .5rem;
-            border-style: solid;
-            border-color: darkgrey;
-            border-width: thin;
-            border-radius: 2px;
-            padding: 2px;
-        }
-
-        #version-div {
-            float: right;
-            vertical-align: middle;
-            //display: inline-block;
-            margin-left: .5rem;
-            margin-right: .5rem;
-        }
+    input[type="range"],
+    input[type="color"],
+    input[type="checkbox"] {
+      max-width: 100%;
+      max-height: 2em;
+      display: inline-block;
+      margin: 0 0.5rem;
+      vertical-align: middle;
     }
 
-    #verovio-panel {
-        padding: 1rem 2rem 3rem 2rem;
-        overflow: scroll;
-        width: 100%;
-        height: 100%;
-        color: #000;
-        background-color: #FFF;
-        text-align: center;
-        z-index: 9;
-
-        g.highlighted, g.highlighted * {
-            fill: @highlight-color;
-            color: @highlight-color;
-            stroke: @highlight-color;
-        }
-
-        // g {
-        //   stroke: rgba(.5, .5, .5, .9);
-        //   fill: rgba(.5, .5, .5, .9);
-        //   color: rgba(.5, .5, .5, .9);
-        // }
+    input[type="range"] {
+      width: auto;
     }
 
-    .hidden {
-        display: none;
+    label {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
     }
 
-    .inline {
-        display: inline-block;
+    button {
+      align-content: space-around;
+      align-items: center;
+      vertical-align: middle;
+      margin: 0;
+      padding: 0 0 0 3px;
+      border-radius: @component-border-radius;
     }
+
+    #breaks-ctrls,
+    #color-ctrls,
+    #debug-ctrls,
+    #pagination-ctrls,
+    #pagination-toggle,
+    #update-ctrls,
+    #zoom-ctrls {
+      display: inline-block;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      border-style: solid;
+      border-color: darkgrey;
+      border-width: thin;
+      border-radius: @component-border-radius;
+      padding: 2px;
+    }
+
+    #version-div {
+      float: right;
+      vertical-align: middle;
+      //display: inline-block;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      padding: 2px;
+    }
+  }
+
+  #help-panel {
+    padding: 0;
+    font-size: 130%;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+
+    div {
+      max-width: 450px;
+      float: left;
+      margin: 0 10px;
+      padding: 0;
+      //border: 3px solid red;
+      //border-radius: 5px;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    td {
+      min-width: 80px;
+      margin-right: 10px;
+    }
+
+    tr {
+      min-height: 12px;
+    }
+
+    span.keyIcon {
+      margin: 0.25em;
+      padding: 0 0.25em;
+      border-style: solid;
+      border-color: @text-color;
+      border-width: thin;
+      border-radius: @component-border-radius;
+    }
+  }
+
+  #verovio-panel {
+    padding: 1rem 2rem 3rem;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+
+    g,
+    g * {
+      fill: @notation-color;
+      color: @notation-color;
+      stroke: @notation-color;
+    }
+
+    g.highlighted,
+    g.highlighted * {
+      fill: @highlight-color;
+      color: @highlight-color;
+      stroke: @highlight-color;
+    }
+
+    g.inverted,
+    g.inverted * {
+      fill: @inverted-color;
+      color: @inverted-color;
+      stroke: @inverted-color;
+    }
+  }
+
+  #verovio-panel div  {
+    background-color: @notation-background-color;
+  }
+
+  #verovio-panel.inverted  {
+    background-color: @inverted-background-color;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .inline {
+    display: inline-block;
+  }
 }
