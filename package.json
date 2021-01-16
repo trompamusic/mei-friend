@@ -1,7 +1,7 @@
 {
   "name": "mei-friend",
   "main": "./lib/mei-friend",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A viewer and lightweight editor for MEI score encodings.",
   "keywords": [
     "music-encoding",
@@ -17,7 +17,7 @@
     "language-xml:grammar-used"
   ],
   "deserializers": {
-   "mei-friend/MeiFriendView": "deserializemeiFriendView"
+    "mei-friend/MeiFriendView": "deserializemeiFriendView"
   },
   "repository": "https://github.com/wergo/mei-friend",
   "license": "MIT",
