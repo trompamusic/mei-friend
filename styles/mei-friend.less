@@ -3,12 +3,12 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables"; // notation coloring notationNightMode: false:
-@notation-color: black;
-@notation-background-color: white;
-@highlight-color: @text-color-info; // notationNightMode = true:
-@inverted-color: @text-color;
-@inverted-background-color: @base-background-color;
-//
+@notation-color: #000;
+@notation-background-color: #fff;
+@inverted-color: @text-color; // @text-color;
+@inverted-background-color: @base-background-color; //@base-background-color; //
+@highlight-color: #4e8bed; //@text-color-info;
+@highlight-color-inverted: #1972ff;
 @controls-height: 5rem;
 
 .mei-friend {
@@ -48,17 +48,17 @@
     }
 
     button {
-      align-content: space-around;
-      align-items: center;
-      vertical-align: middle;
-      margin: 0;
-      padding: 0 0 0 3px;
-      border-radius: @component-border-radius;
+      // align-content: space-around;
+      // align-items: center;
+      // vertical-align: middle;
+      margin: 2px;
+      // padding: 0 0 0 3px;
+      border-radius: 5px; //@component-border-radius;
     }
 
     #breaks-ctrls,
     #color-ctrls,
-    #debug-ctrls,
+    #navigate-ctrls,
     #pagination-ctrls,
     #pagination-toggle,
     #update-ctrls,
@@ -80,6 +80,10 @@
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       padding: 2px;
+      border-style: solid;
+      border-color: darkgrey;
+      border-width: thin;
+      border-radius: @component-border-radius;
     }
   }
 
@@ -129,34 +133,34 @@
     height: 100%;
     text-align: center;
     z-index: 9;
+    background-color: @notation-background-color;
 
-    g,
     g * {
       fill: @notation-color;
       color: @notation-color;
       stroke: @notation-color;
     }
 
-    g.highlighted,
+    g.inverted * {
+      fill: @inverted-color;
+      color: @inverted-color;
+      stroke: @inverted-color;
+    }
+
     g.highlighted * {
       fill: @highlight-color;
       color: @highlight-color;
       stroke: @highlight-color;
     }
 
-    g.inverted,
-    g.inverted * {
-      fill: @inverted-color;
-      color: @inverted-color;
-      stroke: @inverted-color;
+    g.highlighted.inverted * {
+      fill: @highlight-color-inverted;
+      color: @highlight-color-inverted;
+      stroke: @highlight-color-inverted;
     }
   }
 
-  #verovio-panel div  {
-    background-color: @notation-background-color;
-  }
-
-  #verovio-panel.inverted  {
+  #verovio-panel.inverted {
     background-color: @inverted-background-color;
   }
 

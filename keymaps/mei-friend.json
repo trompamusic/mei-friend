@@ -3,6 +3,8 @@
     "alt-cmd-m": "mei-friend:toggle"
   },
   ".mei-friend": {
+    "?": "mei-friend:toggleHelp",
+    "escape": "mei-friend:hideHelp",
     "s": "mei-friend:addSlur",
     "t": "mei-friend:addTie",
     "ctrl-s": "mei-friend:addSlurBelow",
