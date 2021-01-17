@@ -21,3 +21,4 @@
 * Validate selected elements before inserting MEI code
 ## 0.2.6
 * Insert trill, mordent, turn (with extender, if two notes selected, inverted forms with SHIFT)
+* Notation colors independent of theme
