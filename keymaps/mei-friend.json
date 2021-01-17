@@ -20,7 +20,10 @@
     "d": "mei-friend:addDynamics",
     "ctrl-d": "mei-friend:addDnamicsBelow",
     "shift-t": "mei-friend:addTempo",
-
+    "a": "mei-friend:addArpeggio",
+    "g": "mei-friend:addGlissando",
+    "p": "mei-friend:addPedalDown",
+    "ctrl-p": "mei-friend:addPedalUp",
 
     "q": "mei-friend:nightMode",
     "x": "mei-friend:invertPlacement",
