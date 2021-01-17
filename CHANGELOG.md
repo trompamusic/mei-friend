@@ -20,5 +20,6 @@
 * Insert arpeggio, glissando, pedal up/down
 * Validate selected elements before inserting MEI code
 ## 0.2.6
-* Insert trill, mordent, turn (with extender, if two notes selected, inverted forms with SHIFT)
+* Insert turn, mordent (non-default forms with SHIFT)
+* Insert trill (with extender, if two notes selected)
 * Notation colors independent of theme

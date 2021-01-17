@@ -32,8 +32,8 @@ __This package is currently under development__.
 - Insert fermata to selected note (above by default or below and inverted with CTRL).
 - Insert directives, dynamics, tempo indications to selected notes (above by default or below with CTRL).
 - Insert pedal up/down.
-- Insert turn, mordent, trill (with extender, if two notes selected, inverted forms with SHIFT)
-
+- Insert turn, mordent (non-default forms with SHIFT)
+- Insert trill (with extender, if two notes selected)
 
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)
