@@ -25,8 +25,13 @@ __This package is currently under development__.
 
 ### Editing functionality
 - Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
-- Select one or more elements in the Verovio panel (SHIFT + click for multiple tones).
-- Insert slur, tie, hairpin elements at selected notes.
+- Select one or more elements in the Verovio panel (SHIFT + click for multiple notes).
+- Insert slur, tie (above by default or below with CTRL).
+- Insert crescendo hairpin or diminuendo hairpin to two selected notes.
+- Insert glissando, arpeggio elements at selected notes.
+- Insert fermata to selected note (above by default or below and inverted with CTRL).
+- Insert directives, dynamics, tempo indications to selected notes (above by default or below with CTRL).
+- Insert pedal up/down.
 - ...more to come...
 
 
@@ -37,8 +42,8 @@ If prompted to install dependencies, click 'yes' and allow installation to compl
 
 Once installed, use the package by following these steps:
 1. Launch Atom and open an MEI file (menu item File > Open...).
-    - [this is a nice example encoding](https://github.com/trompamusic-encodings/Beethoven_WoO71_BreitkopfHaertel/blob/master/Beethoven_WoO71-Breitkopf.mei) – save with the `.mei` extension (delete anything after `.mei`)
-    - [more examples of MEI 4.0 encodings can be found here](https://github.com/trompamusic-encodings)
+    - [Example encodings Beethoven WoO71](https://github.com/trompamusic-encodings/Beethoven_WoO71_BreitkopfHaertel/blob/master/Beethoven_WoO71-Breitkopf.mei) – save with the `.mei` extension (delete anything after `.mei`)
+    - [TROMPA Music Encodings in MEI 4.0.1](https://github.com/trompamusic-encodings)
 1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or simply press `Alt Cmd M` on a Mac, or `Alt Win M` for Windows.
 
 ## Validating your MEI encoding

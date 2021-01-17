@@ -9,3 +9,12 @@
 * Up- and down-scrolling through layers
 * Selector for breaks options added (auto, line, encoded, none)
 * addSlur/addTie to insert MEI code rather than to act on vrvToolkit
+## 0.2.3
+* Simple insert commands added (slur, tie, hairpin)
+## 0.2.4
+* Night mode (inverted colors of notation) added
+* Help panel added and reachable through `?``
+## 0.2.5
+* Insert several control elements (slur, tie, cres/dim hairpin, fermata)
+* Insert directives, dynamics, tempo indications
+* Insert arpeggio, glissando, pedal up/down
