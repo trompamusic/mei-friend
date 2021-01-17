@@ -18,3 +18,4 @@
 * Insert several control elements (slur, tie, cres/dim hairpin, fermata)
 * Insert directives, dynamics, tempo indications
 * Insert arpeggio, glissando, pedal up/down
+* Validate selected elements before inserting MEI code
