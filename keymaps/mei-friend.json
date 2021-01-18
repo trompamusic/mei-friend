@@ -1,6 +1,9 @@
 {
-  "atom-workspace": {
+  ".platform-darwin atom-workspace": {
     "alt-cmd-m": "mei-friend:toggle"
+  },
+  ".platform-win32 atom-workspace, .platform-linux atom-workspace": {
+    "ctrl-shift-m": "mei-friend:toggle"
   },
   ".mei-friend": {
     "?": "mei-friend:toggleHelp",
@@ -39,12 +42,20 @@
     "x": "mei-friend:invertPlacement",
     "right": "mei-friend:nextNote",
     "left": "mei-friend:previousNote",
-    "cmd-right": "mei-friend:nextMeasure",
-    "cmd-left": "mei-friend:previousMeasure",
-    "ctrl-cmd-right": "mei-friend:nextPage",
-    "ctrl-cmd-left": "mei-friend:previousPage",
     "up": "mei-friend:layerUp",
     "down": "mei-friend:layerDown",
     "backspace": "mei-friend:delete"
+  },
+  ".platform-darwin .mei-friend": {
+    "cmd-right": "mei-friend:nextMeasure",
+    "cmd-left": "mei-friend:previousMeasure",
+    "ctrl-cmd-right": "mei-friend:nextPage",
+    "ctrl-cmd-left": "mei-friend:previousPage"
+  },
+  ".platform-win32 .mei-friend, .platform-linux .mei-friend": {
+    "ctrl-right": "mei-friend:nextMeasure",
+    "ctrl-left": "mei-friend:previousMeasure",
+    "ctrl-alt-right": "mei-friend:nextPage",
+    "ctrl-alt-left": "mei-friend:previousPage"
   }
 }
