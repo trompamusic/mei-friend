@@ -25,3 +25,6 @@
 * Notation colors independent of theme
 ## 0.2.7 - Patch, OS support
 * Different key maps depending on OS
+## 0.2.8 - Patch
+* menu tooltips fixed, update toggle with refresh, icon changed
+* deserializer error worked-around
