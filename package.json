@@ -19,7 +19,7 @@
   "deserializers": {
     "mei-friend/MeiFriendView": "deserializeMeiFriendView"
   },
-  "repository": "https://github.com/wergo/mei-friend",
+  "repository": "https://github.com/trompamusic/mei-friend",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -30,7 +30,7 @@
     "jquery": "^3.5.1",
     "verovio": "^3.0.2"
   },
-  "homepage": "https://github.com/wergo/mei-friend#readme",
+  "homepage": "https://github.com/trompamusic/mei-friend#readme",
   "package-deps": [
     "language-mei"
   ],
@@ -39,6 +39,6 @@
     "email": "goebl@mdw.ac.at"
   },
   "bugs": {
-    "url": "https://github.com/wergo/mei-friend/issues"
+    "url": "https://github.com/trompamusic/mei-friend/issues"
   }
 }

@@ -28,3 +28,5 @@
 ## 0.2.8 - Patch
 * menu tooltips fixed, update toggle with refresh, icon changed
 * deserializer error worked-around
+## 0.2.9 - Patch
+* fix jquery import
