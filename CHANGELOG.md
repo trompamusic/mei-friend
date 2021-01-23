@@ -26,9 +26,10 @@
 ## 0.2.7 - Patch, OS support
 * Different key maps depending on OS
 ## 0.2.8 - Patch
-* menu tooltips fixed, update toggle with refresh, icon changed
-* deserializer error worked-around
+* Menu tooltips fixed, update toggle with refresh, icon changed
+* Deserializer error worked-around
 ## 0.2.9 - Patch
-* fix jquery import
+* Fix jquery import
 ## 0.2.10 - Patch
-* breaks options retrieved automatically from vrvToolkit
+* Repo moved to github/trompamusic
+* Breaks options retrieved automatically from vrvToolkit
