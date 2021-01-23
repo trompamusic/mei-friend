@@ -30,3 +30,5 @@
 * deserializer error worked-around
 ## 0.2.9 - Patch
 * fix jquery import
+## 0.2.10 - Patch
+* breaks options retrieved automatically from vrvToolkit
