@@ -35,4 +35,4 @@
 * Breaks options retrieved automatically from vrvToolkit
 ## 0.2.11 - Patch
 * Invert att.placement (dir, dynam, trill, ...), att.curvature (slur, tie, ...)
-* 
+* Invert att.stems (note, chord, ambNote)
