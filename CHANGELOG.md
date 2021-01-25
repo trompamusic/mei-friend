@@ -37,4 +37,4 @@
 * Invert att.placement (dir, dynam, trill, ...), att.curvature (slur, tie, ...)
 * Click select multiple with CTRL (Windows, Linux, ...) or CMD (Mac)
 * ALT + click select chord instead of note
-* Invert att.stems (note, chord, ambNote)
+* Invert att.stems (note, chord, ambNote) on selected notes, chords, or elements containing those
