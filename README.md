@@ -25,8 +25,8 @@ __This package is currently under development__.
 
 ### Editing functionality
 - Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
-- Select one or more elements in the Verovio panel (SHIFT + click for multiple notes).
-- Insert slur, tie (above by default or below with CTRL).
+- Select one or more elements in the Verovio panel (CTRL + click for multiple notes, Mac OSX: CMD + click).
+- Insert slur, tie (with placement above by default or below with CTRL).
 - Insert crescendo hairpin or diminuendo hairpin to two selected notes.
 - Insert glissando, arpeggio elements at selected notes.
 - Insert fermata to selected note (above by default or below and inverted with CTRL).
