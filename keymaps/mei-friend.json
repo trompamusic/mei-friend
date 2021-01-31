@@ -40,6 +40,7 @@
 
     "q": "mei-friend:nightMode",
     "x": "mei-friend:invertPlacement",
+    "ctrl-x": "mei-friend:betweenPlacement",
     "right": "mei-friend:nextNote",
     "left": "mei-friend:previousNote",
     "up": "mei-friend:layerUp",
