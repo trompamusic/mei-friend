@@ -36,7 +36,7 @@ __This package is currently under development__.
 - Insert turn, mordent (non-default forms with SHIFT).
 - Insert trill (with extender, if two notes selected).
 - Invert placement (for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.).
-- Invert stem.dir for selected notes/chords or elements containing those.
+- Invert stem.dir for selected notes/chords or elements containing those (X).
 
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)

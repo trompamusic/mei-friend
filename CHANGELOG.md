@@ -38,3 +38,8 @@
 * Click select multiple with CTRL (Windows, Linux, ...) or CMD (Mac)
 * ALT + click select chord instead of note
 * Invert att.stems (note, chord, ambNote) on selected notes, chords, or elements containing those
+## 0.2.12 - Patch
+* Use current edit functionality of Verovio (experimental)
+* Implement CTRL + X to set @place="between" (not correctly implemented)
+## 0.2.31 - Patch
+* Deactivate CTRl + X
