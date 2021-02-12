@@ -41,5 +41,7 @@
 ## 0.2.12 - Patch
 * Use current edit functionality of Verovio (experimental)
 * Implement CTRL + X to set @place="between" (not correctly implemented)
-## 0.2.31 - Patch
+## 0.2.13 - Patch
 * Deactivate CTRl + X
+## 0.2.14 - Patch
+* fix updating issues

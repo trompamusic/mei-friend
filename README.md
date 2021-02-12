@@ -45,9 +45,9 @@ If prompted to install dependencies, click 'yes' and allow installation to compl
 
 Once installed, use the package by following these steps:
 1. Launch Atom and open an MEI file (menu item File > Open...).
-    - [Example encodings Beethoven WoO57 Andante favori](https://github.com/trompamusic-encodings/Beethoven_WoO57_BreitkopfHaertel/raw/master/Beethoven_WoO57-Breitkopf.mei) – save with the `.mei` extension (delete anything after `.mei`)
+    - [Example encodings Beethoven WoO57 Andante favori](https://github.com/trompamusic-encodings/Beethoven_WoO57_BreitkopfHaertel/raw/master/Beethoven_WoO57-Breitkopf.mei) – save with the `.mei` extension
     - [TROMPA Music Encodings in MEI 4.0.1](https://github.com/trompamusic-encodings)
-1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or simply press `Alt Cmd M` on a Mac, or `Alt Win M` for Windows.
+1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or  press `Alt Cmd M` (Mac), or `Alt Win M` (Windows, Linux).
 
 ## Validating your MEI encoding
 Only valid MEI can be rendered into notation with _[Verovio](http://www.verovio.org/)_.
