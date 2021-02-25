@@ -45,3 +45,7 @@
 * Deactivate CTRl + X
 ## 0.2.14 - Patch
 * fix updating issues
+## 0.2.15 - Patch
+* MEI code is identified by presence of <mei tag rather than file extension
+* With a selected control element, navigation will continue at @startid element
+* Known limitation: control elements with @tstamp/@staff are not covered
