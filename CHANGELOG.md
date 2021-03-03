@@ -37,7 +37,8 @@
 * Invert att.placement (dir, dynam, trill, ...), att.curvature (slur, tie, ...)
 * Click select multiple with CTRL (Windows, Linux, ...) or CMD (Mac)
 * ALT + click select chord instead of note
-* Invert att.stems (note, chord, ambNote) on selected notes, chords, or elements containing those
+* Invert `att.stems` (note, chord, ambNote) on selected notes, chords, or
+elements containing those
 ## 0.2.12 - Patch
 * Use current edit functionality of Verovio (experimental)
 * Implement CTRL + X to set @place="between" (not correctly implemented)
@@ -49,3 +50,7 @@
 * MEI code is identified by presence of <mei tag rather than file extension
 * With a selected control element, navigation will continue at @startid element
 * Known limitation: control elements with @tstamp/@staff are not covered
+## 0.3.0 - Minor update speed improvements
+* Introduce VOD mode to speed up reaction time for page change and after
+editing operations (only for `breaks=line,encoded`)
+* Addresses #5 to include repetitions symbols in navigation

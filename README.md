@@ -22,6 +22,7 @@ __This package is currently under development__.
 - Click on a note or other rendered notation element to take the cursor to the associated place in the MEI code
     - also relies on `xml:id`s, so elements without `xml:id`s do not provide this feature.
 - Refactor the MEI encoding by running it through Verovio, adding `xml:id`s to elements without `id`s.
+- VOD mode: only the visible page is transferred to Verovio to improve responsiveness and reduce rendering delay. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: no page shown when selected panel large enough to host more than one system in `breaks=line`; time spanning elements reaching into or out from current page not shown.)
 
 ### Editing functionality
 - Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
@@ -35,8 +36,8 @@ __This package is currently under development__.
 - Insert pedal up/down.
 - Insert turn, mordent (non-default forms with SHIFT).
 - Insert trill (with extender, if two notes selected).
-- Invert placement (for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.).
-- Invert stem.dir for selected notes/chords or elements containing those (X).
+- Invert placement (for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
+- Invert stem.dir for selected notes/chords or elements containing those (`X`).
 
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)
@@ -45,7 +46,7 @@ If prompted to install dependencies, click 'yes' and allow installation to compl
 
 Once installed, use the package by following these steps:
 1. Launch Atom and open an MEI file (menu item File > Open...).
-    - [Example encodings Beethoven WoO57 Andante favori](https://github.com/trompamusic-encodings/Beethoven_WoO57_BreitkopfHaertel/raw/master/Beethoven_WoO57-Breitkopf.mei) – save with the `.mei` extension
+    - [Example encodings Beethoven WoO57 Andante favori](https://github.com/trompamusic-encodings/Beethoven_WoO57_BreitkopfHaertel/raw/master/Beethoven_WoO57-Breitkopf.mei)
     - [TROMPA Music Encodings in MEI 4.0.1](https://github.com/trompamusic-encodings)
 1. To display the notation, use the menu item Packages > MEI Friend > Show/Hide Notation, or  press `Alt Cmd M` (Mac), or `Alt Win M` (Windows, Linux).
 
@@ -59,4 +60,4 @@ requires Java Runtime Environment (JRE) v1.6 or above.
 [Visit the package repository](https://github.com/aerhard/linter-autocomplete-jing) for details.
 
 ## Acknowlegements
-This package started on the code of the mei-tools-atom package by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team. Thanks to Laurent Pugin and the MEI community for [all their work on _Verovio_](https://github.com/rism-ch/verovio). Thanks also to Laurent for making _Verovio_ available as a Node package and for constant basic support on Verovio.
+This package started on the code of the `mei-tools-atom` package by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team. Thanks to Laurent Pugin and the MEI community for [all their work on _Verovio_](https://github.com/rism-ch/verovio). Thanks also to Laurent for making _Verovio_ available as a Node package and for constant basic support on Verovio.
