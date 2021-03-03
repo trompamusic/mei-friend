@@ -1,7 +1,7 @@
 {
   "name": "mei-friend",
   "main": "./lib/mei-friend",
-  "version": "0.2.15",
+  "version": "0.3.0",
   "description": "A viewer and lightweight editor for MEI score encodings.",
   "keywords": [
     "music-encoding",
