@@ -13,7 +13,7 @@
 * Simple insert commands added (slur, tie, hairpin)
 ## 0.2.4 - Patch new functionality
 * Night mode (inverted colors of notation) added
-* Help panel added and reachable through `?``
+* Help panel added and reachable through `?`
 ## 0.2.5 - Patch, new functionality
 * Insert several control elements (slur, tie, cres/dim hairpin, fermata)
 * Insert directives, dynamics, tempo indications
@@ -47,8 +47,8 @@ elements containing those
 ## 0.2.14 - Patch
 * fix updating issues
 ## 0.2.15 - Patch
-* MEI code is identified by presence of <mei tag rather than file extension
-* With a selected control element, navigation will continue at @startid element
+* MEI code is identified by presence of `<mei` tag rather than file extension
+* With a selected control element, navigation will continue at `@startid` element
 * Known limitation: control elements with @tstamp/@staff are not covered
 ## 0.3.0 - Minor update speed improvements
 * Introduce speed mode to speed up reaction time for page change and after
