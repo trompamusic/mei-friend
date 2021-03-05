@@ -51,6 +51,6 @@ elements containing those
 * With a selected control element, navigation will continue at @startid element
 * Known limitation: control elements with @tstamp/@staff are not covered
 ## 0.3.0 - Minor update speed improvements
-* Introduce VOD mode to speed up reaction time for page change and after
+* Introduce speed mode to speed up reaction time for page change and after
 editing operations (only for `breaks=line,encoded`)
 * Addresses #5 to include repetitions symbols in navigation

@@ -22,7 +22,7 @@ __This package is currently under development__.
 - Click on a note or other rendered notation element to take the cursor to the associated place in the MEI code
     - also relies on `xml:id`s, so elements without `xml:id`s do not provide this feature.
 - Refactor the MEI encoding by running it through Verovio, adding `xml:id`s to elements without `id`s.
-- VOD mode: only the visible page is transferred to Verovio to improve responsiveness and reduce rendering delay. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: no page shown when selected panel large enough to host more than one system in `breaks=line`; time spanning elements reaching into or out from current page not shown.)
+- Speed mode: only the visible page is transferred to Verovio to improve responsiveness and reduce rendering delay. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: no page shown when selected panel large enough to host more than one system in `breaks=line`; time spanning elements reaching into or out from current page not shown.)
 
 ### Editing functionality
 - Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
