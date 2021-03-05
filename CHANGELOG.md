@@ -54,3 +54,5 @@ elements containing those
 * Introduce speed mode to speed up reaction time for page change and after
 editing operations (only for `breaks=line,encoded`)
 * Addresses #5 to include repetitions symbols in navigation
+## 0.3.1 - Patch
+* Support for time spanning elements with `@start/endid` in speed mode
