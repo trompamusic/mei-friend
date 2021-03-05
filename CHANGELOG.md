@@ -56,3 +56,4 @@ editing operations (only for `breaks=line,encoded`)
 * Addresses #5 to include repetitions symbols in navigation
 ## 0.3.1 - Patch
 * Support for time spanning elements with `@start/endid` in speed mode
+* Issue with page disappearing in speed mode and `breaks=line` fixed
