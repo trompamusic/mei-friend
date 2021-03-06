@@ -51,8 +51,8 @@ elements containing those
 * With a selected control element, navigation will continue at `@startid` element
 * Known limitation: control elements with @tstamp/@staff are not covered
 ## 0.3.0 - Minor update speed improvements
-* Introduce speed mode to speed up reaction time for page change and after
-editing operations (only for `breaks=line,encoded`)
+* Introducing speed mode to reduce reaction time for page change and after
+editing operations (currently only for `breaks=line,encoded`)
 * Addresses #5 to include repetitions symbols in navigation
 ## 0.3.1 - Patch
 * Support for time spanning elements with `@start/endid` in speed mode
