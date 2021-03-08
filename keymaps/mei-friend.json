@@ -1,9 +1,11 @@
 {
   ".platform-darwin atom-workspace": {
-    "alt-cmd-m": "mei-friend:toggle"
+    "alt-cmd-m": "mei-friend:toggle",
+    "alt-cmd-c": "mei-friend:convertToMEI"
   },
   ".platform-win32 atom-workspace, .platform-linux atom-workspace": {
-    "ctrl-shift-m": "mei-friend:toggle"
+    "ctrl-shift-m": "mei-friend:toggle",
+    "ctrl-shift-c": "mei-friend:convertToMEI"
   },
   ".mei-friend": {
     "?": "mei-friend:toggleHelp",
