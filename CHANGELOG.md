@@ -58,3 +58,7 @@ editing operations (currently only for `breaks=line,encoded`)
 * Support for time spanning elements with `@start/endid` in speed mode
 * Issue with page disappearing in speed mode and `breaks=line` fixed
 * scoreDef updated for meter@count/@unit in speed mode (`tstamp/2` now correctly rendered)
+## 0.3.2 - Patch
+* Support for meter@count/@unit within scoreDef per staff in speed mode
+* MusicXML conversion key binding
+* Auto update always enabled in speed mode
