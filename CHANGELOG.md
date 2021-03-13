@@ -62,3 +62,4 @@ editing operations (currently only for `breaks=line,encoded`)
 * Support for meter@count/@unit within scoreDef per staff in speed mode
 * MusicXML conversion key binding
 * Auto update always enabled in speed mode
+* Sort selected elements by score times
