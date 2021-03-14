@@ -63,3 +63,6 @@ editing operations (currently only for `breaks=line,encoded`)
 * MusicXML conversion key binding
 * Auto update always enabled in speed mode
 * Sort selected elements by score times
+## 0.3.3 – Patch
+* Font dropdown selector added
+* Filter selected elements to keep highest in DOM hierarchy

@@ -16,6 +16,7 @@ __This package is currently under development__.
 - Scale notation (zoom in or out) for ease of viewing.
 - Update notation to current cursor position in MEI encoding.
 - Breaks options (automatic system breaks, encoded system breaks, encoded system and page breaks, none).
+- Font drop down selector
 - Element under cursor in MEI code is highlighted in notation window
     - this feature works by matching `xml:id`s, so if you have no `xml:id`s on your elements you will have no highlighting in your notation.
     - if the current element has no `xml:id`, the parent `<staff>` and then `<measure>` will be checked for an `xml:id` and will be highlighted if one is found.
