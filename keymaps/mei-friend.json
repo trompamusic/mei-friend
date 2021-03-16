@@ -48,6 +48,7 @@
     "left": "mei-friend:previousNote",
     "up": "mei-friend:layerUp",
     "down": "mei-friend:layerDown",
+    "delete": "mei-friend:delete",
     "backspace": "mei-friend:delete",
     "shift-c": "mei-friend:cleanAccid"
   },

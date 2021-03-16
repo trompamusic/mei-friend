@@ -39,7 +39,7 @@ __This package is currently under development__.
 - Insert trill (with `@extender`, if two notes selected).
 - Invert placement (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
 - Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
-- Delete control elements with `BACKSPACE` key.
+- Delete control elements with `BACKSPACE` or `DELETE` key.
 
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)

@@ -68,4 +68,4 @@ editing operations (currently only for `breaks=line,encoded`)
 * Filter selected elements to keep highest in DOM hierarchy
 ## 0.3.4 - Patch
 * Clean `@accid.ges` when `@accid` is present (`SHIFT + C`)
-* Support for deleting control elements (`BACKSPACE`)
+* Support for deleting control elements (`BACKSPACE` or `DELETE`)
