@@ -48,7 +48,8 @@
     "left": "mei-friend:previousNote",
     "up": "mei-friend:layerUp",
     "down": "mei-friend:layerDown",
-    "backspace": "mei-friend:delete"
+    "backspace": "mei-friend:delete",
+    "shift-c": "mei-friend:cleanAccid"
   },
   ".platform-darwin .mei-friend": {
     "cmd-right": "mei-friend:nextMeasure",
