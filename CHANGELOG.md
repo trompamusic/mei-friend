@@ -1,8 +1,8 @@
-## 0.1.0 - First Release
+# 0.1.0 - First Release
 * Initial commit to test Verovio import.
 ## 0.1.3 - Patch
 * Verovio import for version 3.0.2 fixed with runtime loader.
-## 0.2.0 - First version of MEI friend uploaded
+# 0.2.0 - First version of MEI friend uploaded
 * Score display using current Verovio
 * Arrow key bindings for navigating within notation display (verovio panel)
 * Note-, measure, and page-wise backwards and forwards scrolling
@@ -50,7 +50,7 @@ elements containing those
 * MEI code is identified by presence of `<mei` tag rather than file extension
 * With a selected control element, navigation will continue at `@startid` element
 * Known limitation: control elements with @tstamp/@staff are not covered
-## 0.3.0 - Minor update speed improvements
+# 0.3.0 - Minor update speed improvements
 * Introducing speed mode to reduce reaction time for page change and after
 editing operations (currently only for `breaks=line,encoded`)
 * Addresses #5 to include repetitions symbols in navigation
@@ -66,3 +66,6 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.3 – Patch
 * Font dropdown selector added
 * Filter selected elements to keep highest in DOM hierarchy
+## 0.3.4 - Patch
+* Clean `@accid.ges` when `@accid` is present (`SHIFT + C`)
+* Support for deleting control elements (`BACKSPACE`)
