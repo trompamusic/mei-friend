@@ -20,7 +20,19 @@
         {
           "label": "Convert MusicXML to MEI",
           "command": "mei-friend:convertToMEI"
-        }
+        },
+        {
+          "label": "Clean doubled accid.ges",
+          "command": "mei-friend:cleanAccid"
+        },
+        {
+          "label": "Test measure renumbering",
+          "command": "mei-friend:renumberMeasuresTest"
+        },
+        {
+          "label": "Renumber measures",
+          "command": "mei-friend:renumberMeasures"
+        },
       ]
     }]
   }]

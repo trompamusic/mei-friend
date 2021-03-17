@@ -69,3 +69,7 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.4 - Patch
 * Clean `@accid.ges` when `@accid` is present (`SHIFT + C`)
 * Support for deleting control elements (`BACKSPACE` or `DELETE`)
+## 0.3.5 - Patch
+* Check measure renumbering with `SHIFT + R` (results to console, no action)
+* Execute measure renumbering with `CTRL-SHIFT + R`
+* Support for inverting `@artic` placement within chords

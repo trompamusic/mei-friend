@@ -41,6 +41,13 @@ __This package is currently under development__.
 - Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
 - Delete control elements with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
 
+### Code manipulation utilities
+- Remove `@accid.ges` when `@accid` is present (`SHIFT + C`)
+- Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering)
+  * Test renumbering `SHIFT + R`, output to console, no manipulation done.
+  * Execute renumbering `CTRL-SHIFT + R` 
+
+
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)
 and can be installed by following their [general instructions](https://flight-manual.atom.io/using-atom/sections/atom-packages/).
