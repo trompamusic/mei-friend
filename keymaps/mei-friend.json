@@ -51,7 +51,8 @@
     "delete": "mei-friend:delete",
     "backspace": "mei-friend:delete",
     "shift-c": "mei-friend:cleanAccid",
-    "shift-r": "mei-friend:renumberMeasures"
+    "shift-r": "mei-friend:renumberMeasuresTest",
+    "ctrl-shift-r": "mei-friend:renumberMeasures"
   },
   ".platform-darwin .mei-friend": {
     "cmd-right": "mei-friend:nextMeasure",
