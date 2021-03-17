@@ -50,7 +50,8 @@
     "down": "mei-friend:layerDown",
     "delete": "mei-friend:delete",
     "backspace": "mei-friend:delete",
-    "shift-c": "mei-friend:cleanAccid"
+    "shift-c": "mei-friend:cleanAccid",
+    "shift-r": "mei-friend:renumberMeasures"
   },
   ".platform-darwin .mei-friend": {
     "cmd-right": "mei-friend:nextMeasure",
