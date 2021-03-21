@@ -40,12 +40,13 @@ __This package is currently under development__.
 - Invert placement (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
 - Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
 - Delete control elements with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
+- Toggle articulation on notes or chords (staccato, tenuto, marcato, accent, staccatissimo)
 
 ### Code manipulation utilities
 - Remove `@accid.ges` when `@accid` is present (`SHIFT + C`)
 - Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering)
   * Test renumbering `SHIFT + R`, output to console, no manipulation done.
-  * Execute renumbering `CTRL-SHIFT + R` 
+  * Execute renumbering `CTRL-SHIFT + R`
 
 
 ## Installation

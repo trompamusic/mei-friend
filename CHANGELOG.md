@@ -73,3 +73,4 @@ editing operations (currently only for `breaks=line,encoded`)
 * Check measure renumbering with `SHIFT + R` (results to console, no action)
 * Execute measure renumbering with `CTRL-SHIFT + R`
 * Support for inverting `@artic` placement within chords
+* Support for toggling articulation on notes/chords through key bindings (staccato, staccatissimo, tenuto, accent, marcato)
