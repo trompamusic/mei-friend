@@ -41,7 +41,7 @@ __This package is currently under development__.
 - Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
 - Delete control elements with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
 - Toggle articulation on notes or chords (staccato, tenuto, marcato, accent, staccatissimo)
-- Move rests (`rest`, `mRest`, `multiRest`) up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + Up/Down`)
+- Move rests (`rest`, `mRest`, `multiRest`) and notes up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + Up/Down`)
 
 ### Code manipulation utilities
 - Remove `@accid.ges` when `@accid` is present (`SHIFT + C`)
