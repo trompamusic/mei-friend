@@ -53,6 +53,8 @@
     "left": "mei-friend:previousNote",
     "up": "mei-friend:layerUp",
     "down": "mei-friend:layerDown",
+    "shift-up": "mei-friend:shiftPitchNameUp",
+    "shift-down": "mei-friend:shiftPitchNameDown",
     "delete": "mei-friend:delete",
     "backspace": "mei-friend:delete",
     "shift-c": "mei-friend:cleanAccid",
@@ -63,12 +65,16 @@
     "cmd-right": "mei-friend:nextMeasure",
     "cmd-left": "mei-friend:previousMeasure",
     "ctrl-cmd-right": "mei-friend:nextPage",
-    "ctrl-cmd-left": "mei-friend:previousPage"
+    "ctrl-cmd-left": "mei-friend:previousPage",
+    "cmd-shift-up": "mei-friend:shiftOctaveUp",
+    "cmd-shift-down": "mei-friend:shiftOctaveDown"
   },
   ".platform-win32 .mei-friend, .platform-linux .mei-friend": {
     "ctrl-right": "mei-friend:nextMeasure",
     "ctrl-left": "mei-friend:previousMeasure",
     "ctrl-alt-right": "mei-friend:nextPage",
-    "ctrl-alt-left": "mei-friend:previousPage"
-  }
+    "ctrl-alt-left": "mei-friend:previousPage",
+    "ctrl-shift-up": "mei-friend:shiftOctaveUp",
+    "ctrl-shift-down": "mei-friend:shiftOctaveDown"
+}
 }
