@@ -67,7 +67,9 @@
     "ctrl-cmd-right": "mei-friend:nextPage",
     "ctrl-cmd-left": "mei-friend:previousPage",
     "cmd-shift-up": "mei-friend:shiftOctaveUp",
-    "cmd-shift-down": "mei-friend:shiftOctaveDown"
+    "cmd-shift-down": "mei-friend:shiftOctaveDown",
+    "cmd-alt-up": "mei-friend:moveElementStaffUp",
+    "cmd-alt-down": "mei-friend:moveElementStaffDown"
   },
   ".platform-win32 .mei-friend, .platform-linux .mei-friend": {
     "ctrl-right": "mei-friend:nextMeasure",
@@ -75,6 +77,8 @@
     "ctrl-alt-right": "mei-friend:nextPage",
     "ctrl-alt-left": "mei-friend:previousPage",
     "ctrl-shift-up": "mei-friend:shiftOctaveUp",
-    "ctrl-shift-down": "mei-friend:shiftOctaveDown"
-}
+    "ctrl-shift-down": "mei-friend:shiftOctaveDown",
+    "ctrl-alt-up": "mei-friend:moveElementStaffUp",
+    "ctrl-alt-down": "mei-friend:moveElementStaffDown"
+  }
 }
