@@ -46,7 +46,7 @@ __This package is currently under development__.
 
 ### Code manipulation utilities
 - Remove `@accid.ges` when `@accid` is present (`SHIFT + C`)
-- Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering)
+- Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering, does not count measures with invisible right bar line)
   * Test renumbering `SHIFT + R`, output to console, no manipulation done.
   * Execute renumbering `CTRL-SHIFT + R`
 
