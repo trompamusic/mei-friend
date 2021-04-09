@@ -76,3 +76,5 @@ editing operations (currently only for `breaks=line,encoded`)
 * Support for toggling articulation on notes/chords through key bindings (staccato, staccatissimo, tenuto, accent, marcato)
 * Support for pitch shifting of rest, mRest, multiRest, note
 * Support for moving notes, chords, rests across staves
+## 0.3.6 - Patch
+* Fix issue on undefined editor
