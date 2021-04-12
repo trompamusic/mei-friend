@@ -79,4 +79,6 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.6 - Patch
 * Fix issue on undefined editor
 ## 0.3.7 - Patch
-* Adress invert placement in speed mode (`issue #9`)
+* Address invert placement in speed mode (`issue #9`)
+## 0.3.8 - Patch
+* Address issue on editor tablength function.
