@@ -78,3 +78,7 @@ editing operations (currently only for `breaks=line,encoded`)
 * Support for moving notes, chords, rests across staves
 ## 0.3.6 - Patch
 * Fix issue on undefined editor
+## 0.3.7 - Patch
+* Address invert placement in speed mode (`issue #9`)
+## 0.3.8 - Patch
+* Address issue on editor tablength function.

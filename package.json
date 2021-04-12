@@ -1,8 +1,13 @@
 {
   "name": "mei-friend",
   "main": "./lib/mei-friend",
+<<<<<<< HEAD
   "version": "0.3.6",
   "description": "A viewer and last-mile editor for MEI score encodings.",
+=======
+  "version": "0.3.8",
+  "description": "A viewer and lightweight editor for MEI score encodings.",
+>>>>>>> 4bb14e58a7aab32d5c10659020f3fe268c52c1e2
   "keywords": [
     "music-encoding",
     "verovio",
