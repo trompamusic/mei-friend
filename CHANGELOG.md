@@ -82,3 +82,5 @@ editing operations (currently only for `breaks=line,encoded`)
 * Address invert placement in speed mode (`issue #9`)
 ## 0.3.8 - Patch
 * Address issue on editor tablength function.
+## 0.3.9 - Patch
+* Remove tablength() calls, other minor fixes
