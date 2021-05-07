@@ -83,4 +83,5 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.8 - Patch
 * Address issue on editor tablength function.
 ## 0.3.9 - Patch
-* Remove tablength() calls, other minor fixes
+* Remove tablength() calls
+* Occasional ghost slurs in speed mode fixed
