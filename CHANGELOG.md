@@ -88,3 +88,6 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.4.0 - Minor update
 * Support for inserting and deleting beams on selected notes/chords sharing
 identical parent (`B`, `DELETE`)
+## 0.4.1 - Patch
+* Select tuplet via tuplet number
+* Invert tuplet number placement with `X` when selected
