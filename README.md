@@ -37,9 +37,11 @@ __This package is currently under development__.
 - Insert pedal up/down.
 - Insert turn, mordent (non-default forms with SHIFT).
 - Insert trill (with `@extender`, if two notes selected).
+- Insert beam on selected notes with identical parent
 - Invert placement (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
 - Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
 - Delete control elements with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
+- Delete selected beam (`BACKSPACE` or `DELETE`)
 - Toggle articulation on notes or chords (staccato, tenuto, marcato, accent, staccatissimo)
 - Move rests (`rest`, `mRest`, `multiRest`) and notes up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + Up/Down`)
 - Move notes, chords, rests to next staff above/below (`ALT + CMD/CTRL + UP/DOWN`)

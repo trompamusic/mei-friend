@@ -85,3 +85,6 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.9 - Patch
 * Remove tablength() calls
 * Occasional ghost slurs in speed mode fixed
+## 0.4.0 - Minor update
+* Support for inserting and deleting beams on selected notes/chords sharing
+identical parent (`B`, `DELETE`)
