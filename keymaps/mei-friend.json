@@ -39,6 +39,7 @@
     "n": "mei-friend:addTurnAbove",
     "ctrl-n": "mei-friend:addTurnBelow",
     "shift-n": "mei-friend:addTurnAboveLower",
+    "b": "mei-friend:addBeamElement",
     "shift-ctrl-n": "mei-friend:addTurnBelowLower",
     "shift-s": "mei-friend:toggleStacc",
     "shift-v": "mei-friend:toggleAccent",
