@@ -23,30 +23,35 @@ __This package is currently under development__.
 - Click on a note or other rendered notation element to take the cursor to the associated place in the MEI code
     - Relies on `xml:id`s, so elements without `xml:id`s do not provide this feature.
     - Select one or more elements in the Verovio panel (`CTRL + click` for multiple notes, Mac OSX: `CMD + click`).
+    - Select chord instead of note with `ALT` + click.
 - Refactor the MEI encoding by running it through Verovio, adding `xml:id`s to elements without `id`s (or optionally removing all unused `id`s with `ALT` ).
 - **Speed mode** checkbox: only the visible page is sent to Verovio to improve GUI responsiveness and reduce rendering duration. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: time spanning elements with `@tstamp`s reaching into or out from current page and all time spanning elements starting before and ending after the current page are not shown.)
 - Show/hide help panel with all keyboard shortcuts (`?`)
+- Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
 
 ### Editing functionality
-- Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
-- Select chord instead of note with `ALT` + click.
 - Insert **slur** (`S`), **tie** (`T`) with placement above by default or below with `CTRL`.
-- Insert **hairpin** spanning two selected notes (`H` crescendo, with `SHIFT` decrescendo).
+- Insert **hairpin** spanning two selected notes (`H` crescendo, `SHIFT H` decrescendo).
 - Insert **glissando** (`G`), **arpeggio** (`A`) at selected notes.
 - Insert **fermata** to selected note (`F` above by default or below and inverted with `CTRL`).
 - Insert **directives** (`I`), **dynamics** (`D`), **tempo indications** (`T`) to selected notes (above by default or below with `CTRL`).
-- Insert **pedal** up/down (`P` with `CTRL`).
-- Insert **turn**, **mordent** (non-default forms with `SHIFT`).
-- Insert **trill** (with `@extender`, if two notes selected).
-- Insert **beam** on selected notes with identical parent
+- Insert **pedal** down (`P`) or up (`CTRL P`).
+- Insert **turn**, **mordent** (non-default forms with `SHIFT`, above by default or below with `CTRL`).
+- Insert **trill** (with `@extender="true"`, if two notes selected, above by default or below with `CTRL`).
+- Insert **beam** on selected notes with identical parent (two selected notes sufficient)
 - Insert **octave** element from first selected note to last selected note within same staff (`O` 8 tones above, `CTRL O` 8 tones below, `ALT O` 15 tones above, `ALT CTRL O` 15 tones below)
 - Invert placement (above/below) (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
 - Invert `@stem.dir` (up/down) for selected notes/chords or elements containing those, e.g., beams (`X`).
-- Invert `@num.place` for **tuplet numbers** (`X`)
+- Invert `@num.place` (above/below) for selected **tuplet numbers** (`X`)
 - Delete **control elements** with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
 - Delete selected **beam** (`BACKSPACE` or `DELETE`)
 - Delete **octave** element (`BACKSPACE` `DELETE`), resets notes between `@startid` and `@endid`
-- Toggle (add/remove) **articulation** on notes, chords, beams (`S`taccato, te`N`uto, marcat`O`, `V` accent, staccat`I`ssimo)
+- Toggle (add/remove) **articulation** on notes, chords, beams:
+    - staccato `SHIFT S`
+    - tenuto `SHIFT T`
+    - marcato `SHIFT O`
+    - accent `SHIFT V`
+    - staccatissimo `SHIFT I`
 - Move rests (`rest`, `mRest`, `multiRest`) and notes up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + up/down`)
 - Move notes, chords, rests to next staff above/below (`ALT + CMD/CTRL + UP/DOWN`)
 
