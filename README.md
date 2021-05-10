@@ -16,42 +16,43 @@ __This package is currently under development__.
 - Scale notation (zoom in or out) for ease of viewing.
 - Update notation to current cursor position in MEI encoding.
 - Breaks options (automatic system breaks, encoded system breaks, encoded system and page breaks, none).
-- Font drop down selector
+- Music font drop down selector
 - Element under cursor in MEI code is highlighted in notation window
-    - this feature works by matching `xml:id`s, so if you have no `xml:id`s on your elements you will have no highlighting in your notation.
-    - if the current element has no `xml:id`, the parent `<staff>` and then `<measure>` will be checked for an `xml:id` and will be highlighted if one is found.
+    - This feature works by matching `xml:id`s, so if you have no `xml:id`s on your elements you will have no highlighting in your notation.
+    - If the current element has no `xml:id`, the parent `<staff>` and then `<measure>` will be checked for an `xml:id` and will be highlighted if one is found.
 - Click on a note or other rendered notation element to take the cursor to the associated place in the MEI code
-    - also relies on `xml:id`s, so elements without `xml:id`s do not provide this feature.
-- Refactor the MEI encoding by running it through Verovio, adding `xml:id`s to elements without `id`s.
-- *Speed mode* checkbox: only the visible page is sent to Verovio to improve GUI responsiveness and reduce rendering duration. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: time spanning elements with `@tstamp`s reaching into or out from current page not shown.)
+    - Relies on `xml:id`s, so elements without `xml:id`s do not provide this feature.
+    - Select one or more elements in the Verovio panel (`CTRL + click` for multiple notes, Mac OSX: `CMD + click`).
+- Refactor the MEI encoding by running it through Verovio, adding `xml:id`s to elements without `id`s (or optionally removing all unused `id`s with `ALT` ).
+- **Speed mode** checkbox: only the visible page is sent to Verovio to improve GUI responsiveness and reduce rendering duration. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: time spanning elements with `@tstamp`s reaching into or out from current page and all time spanning elements starting before and ending after the current page are not shown.)
+- Show/hide help panel with all keyboard shortcuts (`?`)
 
 ### Editing functionality
 - Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
-- Select one or more elements in the Verovio panel (CTRL + click for multiple notes, Mac OSX: CMD + click).
-- Select chord instead of note with ALT + click.
-- Insert slur, tie (with placement above by default or below with CTRL).
-- Insert crescendo hairpin or diminuendo hairpin to two selected notes.
-- Insert glissando, arpeggio elements at selected notes.
-- Insert fermata to selected note (above by default or below and inverted with CTRL).
-- Insert directives, dynamics, tempo indications to selected notes (above by default or below with CTRL).
-- Insert pedal up/down.
-- Insert turn, mordent (non-default forms with SHIFT).
-- Insert trill (with `@extender`, if two notes selected).
-- Insert beam on selected notes with identical parent
-- Insert octave element from first selected note to last selected note within same staff (`O` 8 tones above, `CTRL O` 8 tones below, `ALT O` 15 tones above, `ALT CTRL O` 15 tones below)
-- Invert placement (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
-- Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
-- Invert `@num.place` for tuplet numbers (`X`)
-- Delete control elements with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
-- Delete selected beam (`BACKSPACE` or `DELETE`)
-- Delete octave element (`BACKSPACE` `DELETE`), resets notes between `@startid` and `@endid`
-- Toggle articulation on notes or chords (staccato, tenuto, marcato, accent, staccatissimo)
-- Move rests (`rest`, `mRest`, `multiRest`) and notes up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + Up/Down`)
+- Select chord instead of note with `ALT` + click.
+- Insert **slur** (`S`), **tie** (`T`) with placement above by default or below with `CTRL`.
+- Insert **hairpin** spanning two selected notes (`H` crescendo, with `SHIFT` decrescendo).
+- Insert **glissando** (`G`), **arpeggio** (`A`) at selected notes.
+- Insert **fermata** to selected note (`F` above by default or below and inverted with `CTRL`).
+- Insert **directives** (`I`), **dynamics** (`D`), **tempo indications** (`T`) to selected notes (above by default or below with `CTRL`).
+- Insert **pedal** up/down (`P` with `CTRL`).
+- Insert **turn**, **mordent** (non-default forms with `SHIFT`).
+- Insert **trill** (with `@extender`, if two notes selected).
+- Insert **beam** on selected notes with identical parent
+- Insert **octave** element from first selected note to last selected note within same staff (`O` 8 tones above, `CTRL O` 8 tones below, `ALT O` 15 tones above, `ALT CTRL O` 15 tones below)
+- Invert placement (above/below) (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
+- Invert `@stem.dir` (up/down) for selected notes/chords or elements containing those, e.g., beams (`X`).
+- Invert `@num.place` for **tuplet numbers** (`X`)
+- Delete **control elements** with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
+- Delete selected **beam** (`BACKSPACE` or `DELETE`)
+- Delete **octave** element (`BACKSPACE` `DELETE`), resets notes between `@startid` and `@endid`
+- Toggle (add/remove) **articulation** on notes, chords, beams (`S`taccato, te`N`uto, marcat`O`, `V` accent, staccat`I`ssimo)
+- Move rests (`rest`, `mRest`, `multiRest`) and notes up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + up/down`)
 - Move notes, chords, rests to next staff above/below (`ALT + CMD/CTRL + UP/DOWN`)
 
 ### Code manipulation utilities
 - Remove `@accid.ges` when `@accid` is present (`SHIFT + C`)
-- Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering, does not count measures with invisible right bar line)
+- Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering, does not increment at measures with invisible right bar line)
   * Test renumbering `SHIFT + R`, output to console, no manipulation done.
   * Execute renumbering `CTRL-SHIFT + R`
 
@@ -70,11 +71,6 @@ Once installed, use the package by following these steps:
 ## Validating your MEI encoding
 Only valid MEI can be rendered into notation with _[Verovio](http://www.verovio.org/)_.
 To ensure your MEI is valid, an XML validation package is recommended.  
-[linter-autocomplete-jing](https://github.com/aerhard/linter-autocomplete-jing)
-was designed for use with TEI and MEI, so I recommend starting there.  
-Please note that [linter-autocomplete-jing](https://github.com/aerhard/linter-autocomplete-jing)
-requires Java Runtime Environment (JRE) v1.6 or above.
-[Visit the package repository](https://github.com/aerhard/linter-autocomplete-jing) for details.
 
 ## Acknowlegements
 This package started on the code of the `mei-tools-atom` package by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team. Thanks to Laurent Pugin and the MEI community for [all their work on _Verovio_](https://github.com/rism-ch/verovio). Thanks also to Laurent for making _Verovio_ available as a Node package and for constant basic support on Verovio.
