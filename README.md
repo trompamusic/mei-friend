@@ -38,11 +38,13 @@ __This package is currently under development__.
 - Insert turn, mordent (non-default forms with SHIFT).
 - Insert trill (with `@extender`, if two notes selected).
 - Insert beam on selected notes with identical parent
+- Insert octave element from first selected note to last selected note within same staff (`O` 8 tones above, `CTRL O` 8 tones below, `ALT O` 15 tones above, `ALT CTRL O` 15 tones below)
 - Invert placement (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
 - Invert `@stem.dir` for selected notes/chords or elements containing those (`X`).
 - Invert `@num.place` for tuplet numbers (`X`)
 - Delete control elements with `BACKSPACE` or `DELETE` key (and `accid`, `artic`, `clef`).
 - Delete selected beam (`BACKSPACE` or `DELETE`)
+- Delete octave element (`BACKSPACE` `DELETE`), resets notes between `@startid` and `@endid`
 - Toggle articulation on notes or chords (staccato, tenuto, marcato, accent, staccatissimo)
 - Move rests (`rest`, `mRest`, `multiRest`) and notes up/downwards (`SHIFT + up/down`, `CMD/CTRL + SHIFT + Up/Down`)
 - Move notes, chords, rests to next staff above/below (`ALT + CMD/CTRL + UP/DOWN`)

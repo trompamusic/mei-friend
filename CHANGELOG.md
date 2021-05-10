@@ -90,4 +90,6 @@ editing operations (currently only for `breaks=line,encoded`)
 identical parent (`B`, `DELETE`)
 ## 0.4.1 - Patch
 * Select tuplet via tuplet number
-* Invert tuplet number placement with `X` when selected
+* Invert tuplet number placement (`@num.place`) with `X` when selected
+* Support for inserting octave element from first selected note to last (8 or 15 tones, above or below)
+* Support for deleting octave element (resets note `@oct` and `@oct.ges` in between)
