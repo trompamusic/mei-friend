@@ -97,3 +97,5 @@ identical parent (`B`, `DELETE`)
 * range in speed.js line 440 secured
 ## 0.4.3 - Patch
 * Editor positioning errors fixed
+## 0.4.4 - Patch
+* Several editing bugs addressed
