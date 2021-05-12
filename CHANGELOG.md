@@ -99,3 +99,5 @@ identical parent (`B`, `DELETE`)
 * Editor positioning errors fixed
 ## 0.4.4 - Patch
 * Several editing bugs addressed
+## 0.4.5 - Patch
+* Fix error in addressing nodeLists at inserting and deleting beams
