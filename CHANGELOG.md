@@ -95,3 +95,5 @@ identical parent (`B`, `DELETE`)
 * Support for deleting octave element (resets note `@oct` and `@oct.ges` in between)
 ## 0.4.2 - Patch
 * range in speed.js line 440 secured
+## 0.4.3 - Patch
+* Editor positioning errors fixed
