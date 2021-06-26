@@ -7,7 +7,7 @@ It makes extensive use of the fantastic engraving engine
 This package started on the code of the [mei-tools-atom package](https://atom.io/packages/mei-tools-atom)
 by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 
-![Animated screenshot of mei-friend](./screenshots/mei-friend-50%.gif)
+![Animated screenshot of mei-friend](./screenshots/mei-friend-50.gif)
 
 ## Current Features
 ### Display
