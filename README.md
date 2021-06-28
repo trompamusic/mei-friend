@@ -15,7 +15,7 @@ by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 - Scale notation (zoom in or out) for ease of viewing.
 - Update notation to current cursor position in MEI encoding.
 - Breaks options (automatic system breaks, encoded system breaks, encoded system and page breaks, none).
-- Music font drop down selector
+- Music font drop down selector.
 - Element under cursor in MEI code is highlighted in notation window
     - This feature works by matching `xml:id`s, so if you have no `xml:id`s on your elements you will have no highlighting in your notation.
     - If the current element has no `xml:id`, the parent `<staff>` and then `<measure>` will be checked for an `xml:id` and will be highlighted if one is found.
@@ -32,11 +32,11 @@ by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 - Insert **slur** (`S`), **tie** (`T`) with placement above by default or below with `CTRL`.
 - Insert **hairpin** spanning two selected notes (`H` crescendo, `SHIFT H` decrescendo).
 - Insert **glissando** (`G`), **arpeggio** (`A`) at selected notes.
-- Insert **fermata** to selected note (`F` above by default or below and inverted with `CTRL`).
-- Insert **directives** (`I`), **dynamics** (`D`), **tempo indications** (`T`) to selected notes (above by default or below with `CTRL`).
+- Insert **fermata** to selected note (`F` above by default, below and inverted with `CTRL`).
+- Insert **directives** (`I`), **dynamics** (`D`), **tempo indications** (`T`) to selected notes (above by default, below with `CTRL`).
 - Insert **pedal** down (`P`) or up (`CTRL P`).
-- Insert **turn**, **mordent** (non-default forms with `SHIFT`, above by default or below with `CTRL`).
-- Insert **trill** (with `@extender="true"`, if two notes selected, above by default or below with `CTRL`).
+- Insert **turn**, **mordent** (non-default forms with `SHIFT`, above by default, below with `CTRL`).
+- Insert **trill** (with `@extender="true"`, if two notes selected, above by default, below with `CTRL`).
 - Insert **beam** on selected notes with identical parent (two selected notes sufficient)
 - Insert **octave** element from first selected note to last selected note within same staff (`O` 8 tones above, `CTRL O` 8 tones below, `ALT O` 15 tones above, `ALT CTRL O` 15 tones below)
 - Invert placement (above/below) (`@place` for accid, artic, dir, dynam, etc.) and curvature (for slur, tie, etc.) (`X`).
@@ -59,8 +59,7 @@ by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 - Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering, does not increment at measures with invisible right bar line)
   * Test renumbering `SHIFT + R`, output to console, no manipulation done.
   * Execute renumbering `CTRL-SHIFT + R`
-
-
+  
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)
 and can be installed by following their [general instructions](https://flight-manual.atom.io/using-atom/sections/atom-packages/).
@@ -77,4 +76,4 @@ Only valid MEI can be rendered into notation with _[Verovio](http://www.verovio.
 To ensure your MEI is valid, an XML validation package is recommended.  
 
 ## Acknowlegements
-This package started on the code of the `mei-tools-atom` package by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team. Thanks to Laurent Pugin and the MEI community for [all their work on _Verovio_](https://github.com/rism-ch/verovio). Thanks also to Laurent for making _Verovio_ available as a Node package and for constant basic support on Verovio.
+This package started on the code of the `mei-tools-atom` package by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team. Thanks to Laurent Pugin and the MEI community for [all their work on _Verovio_](https://github.com/rism-digital/verovio). Thanks also to Laurent for making _Verovio_ available as a Node package and for constant basic support on Verovio.
