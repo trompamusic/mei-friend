@@ -101,3 +101,5 @@ identical parent (`B`, `DELETE`)
 * Several editing bugs addressed
 ## 0.4.5 - Patch
 * Fix error in addressing nodeLists at inserting and deleting beams
+# 0.5.0 - Minor updated
+* Animated GIF added to readme show-casing main functionality
