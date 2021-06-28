@@ -53,7 +53,7 @@ elements containing those
 # 0.3.0 - Minor update speed improvements
 * Introducing speed mode to reduce reaction time for page change and after
 editing operations (currently only for `breaks=line,encoded`)
-* Addresses #5 to include repetitions symbols in navigation
+* Addresses #5 to include repetition symbols in navigation
 ## 0.3.1 - Patch
 * Support for time spanning elements with `@start/endid` in speed mode
 * Issue with page disappearing in speed mode and `breaks=line` fixed
@@ -85,7 +85,7 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.9 - Patch
 * Remove tablength() calls
 * Occasional ghost slurs in speed mode fixed
-## 0.4.0 - Minor update
+# 0.4.0 - Minor update
 * Support for inserting and deleting beams on selected notes/chords sharing
 identical parent (`B`, `DELETE`)
 ## 0.4.1 - Patch
