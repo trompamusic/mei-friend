@@ -7,7 +7,7 @@ It makes extensive use of the fantastic engraving engine
 This package started on the code of the [mei-tools-atom package](https://atom.io/packages/mei-tools-atom)
 by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 
-![Animated screenshot of mei-friend](https://github.com/musicog/dummy-test-repo/blob/main/MEI-Friend.gif)
+![Animated screenshot of mei-friend](https://github.com/trompamusic/mei-friend/blob/master/screenshots/MEI-Friend.gif)
 
 ## Current Features
 ### Display
@@ -59,7 +59,7 @@ by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 - Renumber measures (counts successive measures with `@metcon="false"` as one, counts multiple endings with same numbering, does not increment at measures with invisible right bar line)
   * Test renumbering `SHIFT + R`, output to console, no manipulation done.
   * Execute renumbering `CTRL-SHIFT + R`
-  
+
 ## Installation
 This package is [published to the official Atom registry](https://atom.io/packages/mei-friend)
 and can be installed by following their [general instructions](https://flight-manual.atom.io/using-atom/sections/atom-packages/).
