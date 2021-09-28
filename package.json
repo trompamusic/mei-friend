@@ -28,7 +28,7 @@
     "atom-package-deps": "^4.6.0",
     "atom-select-list": "^0.8.1",
     "jquery": "^3.5.1",
-    "verovio": "3.4.1"
+    "verovio": "^3.6.0"
   },
   "homepage": "https://github.com/trompamusic/mei-friend#readme",
   "package-deps": [
