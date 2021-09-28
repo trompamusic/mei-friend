@@ -103,3 +103,5 @@ identical parent (`B`, `DELETE`)
 * Fix error in addressing nodeLists at inserting and deleting beams
 # 0.5.0 - Minor updated
 * Animated GIF added to readme show-casing main functionality
+## 0.5.1 - Patch
+* Introducing quick fix for Verovio issue #2358, probably introduced by PR #2347, to allow speedmode to work
