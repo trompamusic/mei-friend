@@ -104,4 +104,4 @@ identical parent (`B`, `DELETE`)
 # 0.5.0 - Minor updated
 * Animated GIF added to readme show-casing main functionality
 ## 0.5.1 - Patch
-* 
+* Fix for #11 to update current page counter with zooming
