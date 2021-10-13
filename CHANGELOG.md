@@ -53,7 +53,7 @@ elements containing those
 # 0.3.0 - Minor update speed improvements
 * Introducing speed mode to reduce reaction time for page change and after
 editing operations (currently only for `breaks=line,encoded`)
-* Addresses #5 to include repetitions symbols in navigation
+* Addresses #5 to include repetition symbols in navigation
 ## 0.3.1 - Patch
 * Support for time spanning elements with `@start/endid` in speed mode
 * Issue with page disappearing in speed mode and `breaks=line` fixed
@@ -85,3 +85,26 @@ editing operations (currently only for `breaks=line,encoded`)
 ## 0.3.9 - Patch
 * Remove tablength() calls
 * Occasional ghost slurs in speed mode fixed
+# 0.4.0 - Minor update
+* Support for inserting and deleting beams on selected notes/chords sharing
+identical parent (`B`, `DELETE`)
+## 0.4.1 - Patch
+* Select tuplet via tuplet number
+* Invert tuplet number placement (`@num.place`) with `X` when selected
+* Support for inserting octave element from first selected note to last (8 or 15 tones, above or below)
+* Support for deleting octave element (resets note `@oct` and `@oct.ges` in between)
+## 0.4.2 - Patch
+* range in speed.js line 440 secured
+## 0.4.3 - Patch
+* Editor positioning errors fixed
+## 0.4.4 - Patch
+* Several editing bugs addressed
+## 0.4.5 - Patch
+* Fix error in addressing nodeLists at inserting and deleting beams
+# 0.5.0 - Minor updated
+* Animated GIF added to readme show-casing main functionality
+## 0.5.1 - Patch
+* Fix for #11 to update current page counter with zooming
+## 0.5.2 -Patch
+* Verovio editing at invert placement (X) removed (DOM manipulation only
+  instead)

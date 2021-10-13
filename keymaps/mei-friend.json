@@ -46,6 +46,12 @@
     "shift-o": "mei-friend:toggleMarcato",
     "shift-i": "mei-friend:toggleStacciss",
 
+    "b": "mei-friend:addBeam",
+    "o": "mei-friend:addOctave8Above",
+    "ctrl-o": "mei-friend:addOctave8Below",
+    "alt-o": "mei-friend:addOctave15Above",
+    "alt-ctrl-o": "mei-friend:addOctave15Below",
+
     "q": "mei-friend:nightMode",
     "x": "mei-friend:invertPlacement",
     "ctrl-x": "mei-friend:betweenPlacement",
