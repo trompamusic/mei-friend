@@ -105,3 +105,7 @@ identical parent (`B`, `DELETE`)
 * Animated GIF added to readme show-casing main functionality
 ## 0.5.1 - Patch
 * Fix for #11 to update current page counter with zooming
+## 0.5.2 - Patch
+* Keyboard shortcuts and wheel interaction for zooming in and out (similar to
+  typical browser behavior)
+* Keyboard shortcuts for page turning (next, previous, first, last), similar to browser conventions

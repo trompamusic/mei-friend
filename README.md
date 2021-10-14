@@ -12,7 +12,7 @@ by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 ## Current Features
 ### Display
 - As-you-type rendering of MEI into music notation with _[Verovio](http://www.verovio.org/)_.
-- Scale notation (zoom in or out) for ease of viewing.
+- Scale notation (zoom in or out) for ease of viewing (CMD/CTRL +/– or with CMD/CTRL mouse wheel).
 - Update notation to current cursor position in MEI encoding.
 - Breaks options (automatic system breaks, encoded system breaks, encoded system and page breaks, none).
 - Music font drop down selector.
@@ -27,6 +27,7 @@ by Sienna M. Wood and the [nCoda](https://ncodamusic.org/) team.
 - **Speed mode** checkbox: only the visible page is sent to Verovio to improve GUI responsiveness and reduce rendering duration. Works currently only with the `breaks` option set to `System` (`line`) and `Page and System` (`encoded`). (Known issues are: time spanning elements with `@tstamp`s reaching into or out from current page and all time spanning elements starting before and ending after the current page are not shown.)
 - Show/hide help panel with all keyboard shortcuts (`?`)
 - Navigation within the notation window by arrow keys (combined with CMD and CTRL for measure-wise and page-wise stepping).
+- Page navigation with keyboard shortcuts (`SPACE`, `PAGEDOWN`: next page; `SHIFT-SPACE`, `PAGEUP`: previous page; `HOME`, `CMD/CTRL + UP`: first page; `END`, `CMD/CTRL + DOWN`: last page)
 
 ### Editing functionality
 - Insert **slur** (`S`), **tie** (`T`) with placement above by default or below with `CTRL`.
