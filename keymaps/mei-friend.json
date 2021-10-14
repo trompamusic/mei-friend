@@ -75,7 +75,10 @@
     "cmd-shift-up": "mei-friend:shiftOctaveUp",
     "cmd-shift-down": "mei-friend:shiftOctaveDown",
     "cmd-alt-up": "mei-friend:moveElementStaffUp",
-    "cmd-alt-down": "mei-friend:moveElementStaffDown"
+    "cmd-alt-down": "mei-friend:moveElementStaffDown",
+    "cmd-0": "mei-friend:zoom100",
+    "cmd-+": "mei-friend:zoomIn",
+    "cmd--": "mei-friend:zoomOut"
   },
   ".platform-win32 .mei-friend, .platform-linux .mei-friend": {
     "ctrl-right": "mei-friend:nextMeasure",
@@ -85,6 +88,9 @@
     "ctrl-shift-up": "mei-friend:shiftOctaveUp",
     "ctrl-shift-down": "mei-friend:shiftOctaveDown",
     "ctrl-alt-up": "mei-friend:moveElementStaffUp",
-    "ctrl-alt-down": "mei-friend:moveElementStaffDown"
+    "ctrl-alt-down": "mei-friend:moveElementStaffDown",
+    "ctrl-0": "mei-friend:zoom100",
+    "ctrl-+": "mei-friend:zoomIn",
+    "ctrl--": "mei-friend:zoomOut"
   }
 }
