@@ -77,6 +77,7 @@
     "cmd-alt-up": "mei-friend:moveElementStaffUp",
     "cmd-alt-down": "mei-friend:moveElementStaffDown",
     "cmd-0": "mei-friend:zoom100",
+    "cmd-5": "mei-friend:zoom50",
     "cmd-+": "mei-friend:zoomIn",
     "cmd--": "mei-friend:zoomOut"
   },
@@ -90,6 +91,7 @@
     "ctrl-alt-up": "mei-friend:moveElementStaffUp",
     "ctrl-alt-down": "mei-friend:moveElementStaffDown",
     "ctrl-0": "mei-friend:zoom100",
+    "ctrl-5": "mei-friend:zoom50",
     "ctrl-+": "mei-friend:zoomIn",
     "ctrl--": "mei-friend:zoomOut"
   }
