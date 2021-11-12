@@ -109,3 +109,5 @@ identical parent (`B`, `DELETE`)
 * Keyboard shortcuts and wheel interaction for zooming in and out (similar to
   typical browser behavior)
 * Keyboard shortcuts for page turning (next, previous, first, last), similar to browser conventions
+## 0.5.3 - Patch
+* Fix zoom button bug
