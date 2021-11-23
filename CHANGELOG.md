@@ -111,3 +111,6 @@ identical parent (`B`, `DELETE`)
 * Keyboard shortcuts for page turning (next, previous, first, last), similar to browser conventions
 ## 0.5.3 - Patch
 * Fix zoom button bug
+## 0.6.0 - Minor
+* Navigation through notes/rests in SVG (addresses #4)
+* Support for Verovio 3.7 (using SVG data-* tags)
