@@ -65,26 +65,44 @@
     "backspace": "mei-friend:delete",
     "shift-c": "mei-friend:cleanAccid",
     "shift-r": "mei-friend:renumberMeasuresTest",
-    "ctrl-shift-r": "mei-friend:renumberMeasures"
+    "ctrl-shift-r": "mei-friend:renumberMeasures",
+    "pagedown": "mei-friend:nextPage",
+    "pageup": "mei-friend:previousPage",
+    "home": "mei-friend:firstPage",
+    "end": "mei-friend:lastPage",
+    "space": "mei-friend:nextPage",
+    "shift-space": "mei-friend:previousPage"
   },
   ".platform-darwin .mei-friend": {
     "cmd-right": "mei-friend:nextMeasure",
     "cmd-left": "mei-friend:previousMeasure",
     "ctrl-cmd-right": "mei-friend:nextPage",
     "ctrl-cmd-left": "mei-friend:previousPage",
+    "cmd-up": "mei-friend:firstPage",
+    "cmd-down": "mei-friend:lastPage",
     "cmd-shift-up": "mei-friend:shiftOctaveUp",
     "cmd-shift-down": "mei-friend:shiftOctaveDown",
     "cmd-alt-up": "mei-friend:moveElementStaffUp",
-    "cmd-alt-down": "mei-friend:moveElementStaffDown"
+    "cmd-alt-down": "mei-friend:moveElementStaffDown",
+    "cmd-0": "mei-friend:zoom100",
+    "cmd-5": "mei-friend:zoom50",
+    "cmd-+": "mei-friend:zoomIn",
+    "cmd--": "mei-friend:zoomOut"
   },
   ".platform-win32 .mei-friend, .platform-linux .mei-friend": {
     "ctrl-right": "mei-friend:nextMeasure",
     "ctrl-left": "mei-friend:previousMeasure",
     "ctrl-alt-right": "mei-friend:nextPage",
     "ctrl-alt-left": "mei-friend:previousPage",
+    "ctrl-up": "mei-friend:firstPage",
+    "ctrl-down": "mei-friend:lastPage",
     "ctrl-shift-up": "mei-friend:shiftOctaveUp",
     "ctrl-shift-down": "mei-friend:shiftOctaveDown",
     "ctrl-alt-up": "mei-friend:moveElementStaffUp",
-    "ctrl-alt-down": "mei-friend:moveElementStaffDown"
+    "ctrl-alt-down": "mei-friend:moveElementStaffDown",
+    "ctrl-0": "mei-friend:zoom100",
+    "ctrl-5": "mei-friend:zoom50",
+    "ctrl-+": "mei-friend:zoomIn",
+    "ctrl--": "mei-friend:zoomOut"
   }
 }
