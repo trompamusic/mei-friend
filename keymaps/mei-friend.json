@@ -24,6 +24,7 @@
     "ctrl-i": "mei-friend:addDirectiveBelow",
     "d": "mei-friend:addDynamics",
     "ctrl-d": "mei-friend:addDnamicsBelow",
+    "ctrl-shift-alt-d": "mei-friend:pianoDynamicsBetween",    
     "shift-t": "mei-friend:addTempo",
     "alt-shift-t": "mei-friend:addTempoTstamp",
     "a": "mei-friend:addArpeggio",
