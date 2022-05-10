@@ -1,5 +1,7 @@
 # mei-friend package for Atom
 
+This package is an Atom version of the [mei-friend web application](https://mei-friend.mdw.ac.at/). 
+
 This package for the Atom editor is a friendly companion that helps you
 edit and improve digital score encodings in [MEI format](https://music-encoding.org/).
 It makes extensive use of the fantastic engraving engine
